@@ -115,6 +115,7 @@ def get_city_analysis():
                 "avg_salary": avg_sal
             })
 
+
         # 排序取前 15
         chart_data.sort(key=lambda x: x['value'], reverse=True)
 
